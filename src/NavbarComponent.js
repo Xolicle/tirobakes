@@ -9,17 +9,17 @@ import logo from "./images/tirobakesIcon.png";
 
 export default function NavbarComponent() {
   return (
-    <Container>
-      <Navbar expand="md" /* className="bg-body-tertiary" */>
+    <Container className="mb-2">
+      <Navbar expand="md" className="nav">
         <Container fluid>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="#" className="logo">
             <img src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
+              className="me-auto my-2 my-lg-0 d-flex navItem"
+              // style={{ maxHeight: "100px" }}
               navbarScroll
             >
               <Nav.Link href="#about-us">About Us</Nav.Link>
@@ -28,11 +28,11 @@ export default function NavbarComponent() {
               <Nav.Link href="#contact-us">Contact Us</Nav.Link>
               <Nav.Link href="#help">Help</Nav.Link>
             </Nav>
-            <Form className="d-flex">
+            <Form className="d-flex searchTab">
               <Form.Control
                 type="search"
                 placeholder="Search"
-                className="me-2"
+                // className="me-2"
                 aria-label="Search"
               />
             </Form>
