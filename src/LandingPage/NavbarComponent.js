@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, Form } from "react-bootstrap";
-import logo from "./images/tirobakesIcon.png";
+import logo from "../images/tirobakesIcon.png";
 // import Button from "react-bootstrap/Button";
 // import Container from "react-bootstrap/Container";
 // import Form from "react-bootstrap/Form";

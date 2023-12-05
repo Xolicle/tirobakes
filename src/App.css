@@ -68,3 +68,21 @@
   background-color: #fff;
   border-radius: 0.5rem;
 }
+
+/*******BEST SELLERS********/
+.bestSellers {
+  background-color: #f2dbae;
+  border-radius: 0.75rem;
+}
+
+.bestSellerButton {
+  width: 13rem;
+  height: 3rem;
+  border-radius: 1rem;
+  background: #2a3140;
+  color: #f2dbae;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
