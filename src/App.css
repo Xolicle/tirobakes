@@ -86,3 +86,9 @@
   font-weight: 700;
   line-height: normal;
 }
+
+/*********Products********/
+.products {
+  background-color: #f2dbae;
+  border-radius: 0.75rem;
+}
