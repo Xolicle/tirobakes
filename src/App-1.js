@@ -6,7 +6,6 @@ import BestSellers from "./LandingPage/BestSellers";
 import Products from "./LandingPage/Products";
 import About from "./LandingPage/About";
 import Reviews from "./LandingPage/Reviews";
-import Footer from "./LandingPage/FooterComp";
 function App() {
   return (
     <div className="App">
@@ -17,10 +16,7 @@ function App() {
       <BestSellers />
       <Products />
       <About />
-      <Reviews />
-      <footer>
-        <Footer />
-      </footer>
+      <footer></footer>
     </div>
   );
 }
