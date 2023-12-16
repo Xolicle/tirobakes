@@ -1,14 +1,20 @@
 import React from "react";
 import { Container, Col, Row, Button } from "react-bootstrap";
-import tumi from "../images/celebrationCakes.png";
+import tumi from "../images/tumi.png";
 
 export default function About() {
   return (
-    <Container>
-      <h3>GET TO KNOW US</h3>
-      <Row>
-        <Col>Picture</Col>
-        <Col>
+    <Container className="my-3 knowUsSection">
+      <h3 className="my-2 text-center">GET TO KNOW US</h3>
+      <Row className="gap-2">
+        <Col className="knowUsPic">
+          <img
+            src={tumi}
+            className="img-fluid tumi"
+            alt="Tumi the brain behind Tiro bakes"
+          />
+        </Col>
+        <Col sm={7} className=" pt-2 knowUsDetails">
           <p>
             Welcome to tirotakes, where passion meets deliciousness! My name is
             Itumeleng, and I am the proud owner of this bakery.
@@ -34,7 +40,9 @@ export default function About() {
           </p>
         </Col>
       </Row>
-      <Button>READ MORE</Button>
+      <Row className="d-flex justify-content-end p-2">
+        <Button className="knowUsButton">READ MORE</Button>
+      </Row>
     </Container>
   );
 }

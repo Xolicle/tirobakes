@@ -92,3 +92,37 @@
   background-color: #f2dbae;
   border-radius: 0.75rem;
 }
+
+/********About************/
+.knowUsSection {
+  background: #2a3140;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  color: #fff;
+}
+
+.knowUsButton {
+  border: 2px solid #f2dbae;
+  border-radius: 1rem;
+  /* padding: 0.8125rem 1.6875rem; */
+  width: 9rem;
+  height: 3rem;
+  background: #2a3140;
+  /* color: #f2dbae; */
+  /* font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; */
+}
+.knowUsDetails {
+  border: 2px solid white;
+}
+
+.knowUsPic {
+  border: 2px solid white;
+}
+
+.tumi {
+  max-width: 100%;
+  height: auto;
+}
