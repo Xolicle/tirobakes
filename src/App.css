@@ -132,3 +132,29 @@
   background: #2a3140;
   color: #fff;
 }
+.review-top {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.avatar1 {
+  display: flex;
+  background-color: #be2424;
+  width: 3.625rem;
+  height: 3.625rem;
+  border-radius: 4.5rem;
+}
+.avatar2 {
+  /* display: flex; */
+  background-color: #13a94f;
+  width: 3.625rem;
+  height: 3.625rem;
+  border-radius: 4.5rem;
+}
+.avatar3 {
+  /* display: flex; */
+  background-color: #244fbe;
+  width: 3.625rem;
+  height: 3.625rem;
+  border-radius: 4.5rem;
+}

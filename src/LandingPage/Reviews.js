@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Col, Row, Carousel, Card } from "react-bootstrap";
+import { Container, Col, Row, Card } from "react-bootstrap";
+import { RiStarSFill, RiStarSLine } from "react-icons/ri";
 
 export default function Reviews() {
   return (
@@ -9,7 +10,23 @@ export default function Reviews() {
         <Col>
           <Card>
             <Card.Body>
-              <Card.Title>Review1</Card.Title>
+              {/* <Card.Title>Review1</Card.Title> */}
+              <div className="review-top">
+                <div className="avatar1">
+                  <p>G</p>
+                </div>
+                <div>
+                  <p>Full Name</p>
+                  <small>time</small>
+                </div>
+                <div className="stars">
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSLine />
+                </div>
+              </div>
               <Card.Text>
                 Thanks a lot @tirobakes for helping me with my daughter's
                 birthday cake. It was short notice but you manage to deliver the
@@ -23,7 +40,23 @@ export default function Reviews() {
         <Col>
           <Card>
             <Card.Body>
-              <Card.Title>Review2</Card.Title>
+              {/* <Card.Title>Review2</Card.Title> */}
+              <div className="review-top">
+                <div className="avatar2">
+                  <p>X</p>
+                </div>
+                <div>
+                  <p>Full Name</p>
+                  <small>time</small>
+                </div>
+                <div className="stars">
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                </div>
+              </div>
               <Card.Text>
                 Your cakes are incredible, thank you so much for your incredible
                 creations.
@@ -35,7 +68,23 @@ export default function Reviews() {
         <Col>
           <Card>
             <Card.Body>
-              <Card.Title>Review3</Card.Title>
+              {/* <Card.Title>Review3</Card.Title> */}
+              <div className="review-top">
+                <div className="avatar3">
+                  <p>T</p>
+                </div>
+                <div>
+                  <p>Full Name</p>
+                  <small>time</small>
+                </div>
+                <div className="stars">
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSFill />
+                  <RiStarSLine />
+                </div>
+              </div>
               <Card.Text>
                 Amazing cakes, made by a lovely lady . The cream caramel is my
                 personal favourite.
