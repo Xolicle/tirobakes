@@ -129,9 +129,14 @@
 
 /*******Reviews******/
 .reviews {
-  background: #2a3140;
-  color: #fff;
+  /* background: #2a3140;
+  color: #fff; */
+  border: 1px solid red;
 }
+/* .review-card {
+  width: 26.25rem;
+  height: 14.75rem;
+} */
 .review-top {
   border: 1px solid red;
   display: flex;
@@ -145,16 +150,28 @@
   border-radius: 4.5rem;
 }
 .avatar2 {
-  /* display: flex; */
+  display: flex;
   background-color: #13a94f;
   width: 3.625rem;
   height: 3.625rem;
   border-radius: 4.5rem;
 }
 .avatar3 {
-  /* display: flex; */
+  display: flex;
   background-color: #244fbe;
   width: 3.625rem;
   height: 3.625rem;
   border-radius: 4.5rem;
+}
+.avatar-text {
+  margin: auto;
+  color: #fff;
+}
+.review-text {
+  color: #000;
+  font-family: Sans Serif Collection;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
 }

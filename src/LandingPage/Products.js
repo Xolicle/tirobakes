@@ -14,7 +14,7 @@ export default function Products() {
       </p>
       <Row xs={1} md={3} className="g-4">
         <Col>
-          <Card>
+          <Card className="h-100">
             <Card.Img variant="top" src={cakes} />
             <Card.Body>
               <Card.Title>Celebration cakes</Card.Title>
@@ -30,7 +30,7 @@ export default function Products() {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className="h-100">
             <Card.Img variant="top" src={productCupcakes} />
             <Card.Body>
               <Card.Title>Cupcakes</Card.Title>
@@ -47,7 +47,7 @@ export default function Products() {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className="h-100">
             <Card.Img variant="top" src={macaroons} />
             <Card.Body>
               <Card.Title>Macaroons</Card.Title>

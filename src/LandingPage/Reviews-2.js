@@ -6,9 +6,9 @@ export default function Reviews() {
   return (
     <Container className="my-3 reviews">
       <h3 className="my-2 text-center">REVIEWS FROM OUR CLIENTS</h3>
-      <Row md={3}>
+      <Row>
         <Col>
-          <Card className="review-card">
+          <Card>
             <Card.Body>
               {/* <Card.Title>Review1</Card.Title> */}
               <div className="review-top">
@@ -27,7 +27,7 @@ export default function Reviews() {
                   <RiStarSLine color="#c2b00a" />
                 </div>
               </div>
-              <Card.Text className="review-text">
+              <Card.Text>
                 Thanks a lot @tirobakes for helping me with my daughter's
                 birthday cake. It was short notice but you manage to deliver the
                 cake as i asked. I will definitely be back for more of your
@@ -42,7 +42,7 @@ export default function Reviews() {
         </Col>
 
         <Col>
-          <Card className="review-card">
+          <Card>
             <Card.Body>
               {/* <Card.Title>Review2</Card.Title> */}
               <div className="review-top">
@@ -61,7 +61,7 @@ export default function Reviews() {
                   <RiStarSFill color="#c2b00a" />
                 </div>
               </div>
-              <Card.Text className="review-text">
+              <Card.Text>
                 Your cakes are incredible, thank you so much for your incredible
                 creations.
               </Card.Text>
@@ -70,7 +70,7 @@ export default function Reviews() {
         </Col>
 
         <Col>
-          <Card className="review-card">
+          <Card>
             <Card.Body>
               {/* <Card.Title>Review3</Card.Title> */}
               <div className="review-top">
@@ -89,7 +89,7 @@ export default function Reviews() {
                   <RiStarSLine color="#c2b00a" />
                 </div>
               </div>
-              <Card.Text className="review-text">
+              <Card.Text>
                 Amazing cakes, made by a lovely lady . The cream caramel is my
                 personal favourite.
               </Card.Text>

@@ -6,7 +6,7 @@ export default function Reviews() {
   return (
     <Container className="my-3 reviews">
       <h3 className="my-2 text-center">REVIEWS FROM OUR CLIENTS</h3>
-      <Row md={3}>
+      <Row>
         <Col>
           <Card className="review-card">
             <Card.Body>
