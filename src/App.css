@@ -134,13 +134,12 @@
   border: 1px solid red;
 }
 /* .review-card {
-  width: 26.25rem;
-  height: 14.75rem;
+  width: 20rem;
 } */
 .review-top {
   border: 1px solid red;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .avatar1 {
   display: flex;
@@ -173,5 +172,8 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 1.5rem */
+  line-height: 150%;
+}
+.footer {
+  background: #f2dbae;
 }

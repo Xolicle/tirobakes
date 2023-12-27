@@ -18,7 +18,9 @@ function App() {
       <Products />
       <About />
       <Reviews />
-      <footer>{/* <Footer /> */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

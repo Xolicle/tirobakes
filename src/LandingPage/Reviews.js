@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { RiStarSFill, RiStarSLine } from "react-icons/ri";
+// import { FaChevronRight } from "react-icons/fa";
 
 export default function Reviews() {
   return (
@@ -8,18 +9,18 @@ export default function Reviews() {
       <h3 className="my-2 text-center">REVIEWS FROM OUR CLIENTS</h3>
       <Row md={3}>
         <Col>
-          <Card className="review-card">
+          <Card className="review-card h-100">
             <Card.Body>
               {/* <Card.Title>Review1</Card.Title> */}
               <div className="review-top">
                 <div className="avatar1">
                   <p className="avatar-text">G</p>
                 </div>
-                <div>
+                <div className="p-2">
                   <p>Full Name</p>
                   <small>time</small>
                 </div>
-                <div className="stars">
+                <div className="stars p-2">
                   <RiStarSFill color="#c2b00a" />
                   <RiStarSFill color="#c2b00a" />
                   <RiStarSFill color="#c2b00a" />
@@ -42,18 +43,18 @@ export default function Reviews() {
         </Col>
 
         <Col>
-          <Card className="review-card">
+          <Card className="review-card h-100">
             <Card.Body>
               {/* <Card.Title>Review2</Card.Title> */}
               <div className="review-top">
                 <div className="avatar2">
                   <p className="avatar-text">X</p>
                 </div>
-                <div>
+                <div className="p-2">
                   <p>Full Name</p>
                   <small>time</small>
                 </div>
-                <div className="stars">
+                <div className="stars p-2">
                   <RiStarSFill color="#c2b00a" />
                   <RiStarSFill color="#c2b00a" />
                   <RiStarSFill color="#c2b00a" />
@@ -70,18 +71,18 @@ export default function Reviews() {
         </Col>
 
         <Col>
-          <Card className="review-card">
+          <Card className="review-card h-100">
             <Card.Body>
               {/* <Card.Title>Review3</Card.Title> */}
               <div className="review-top">
                 <div className="avatar3">
                   <p className="avatar-text">T</p>
                 </div>
-                <div>
+                <div className="p-2">
                   <p>Full Name</p>
                   <small>time</small>
                 </div>
-                <div className="stars">
+                <div className="stars p-2">
                   <RiStarSFill color="#c2b00a" />
                   <RiStarSFill color="#c2b00a" />
                   <RiStarSFill color="#c2b00a" />
@@ -96,6 +97,7 @@ export default function Reviews() {
             </Card.Body>
           </Card>
         </Col>
+        {/* <FaChevronRight /> */}
       </Row>
     </Container>
   );
